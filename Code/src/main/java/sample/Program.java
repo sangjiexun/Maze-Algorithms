@@ -7,12 +7,16 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class Main extends Application {
+public class Program extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
 
     /**
      * Start method is vital to initializing key components such as our Stage (Window)
@@ -21,7 +25,8 @@ public class Main extends Application {
      * @throws Exception
      */
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception
+    {
 
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Maze Generator");
@@ -31,7 +36,4 @@ public class Main extends Application {
     }
 
 
-    public static void main(String[] args) {
-        launch(args);
-    }
 }

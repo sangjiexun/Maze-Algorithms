@@ -1,9 +1,9 @@
 package sample;
 
 
-import Algorithms.Kruskal;
-import Algorithms.RecursiveBacktracking;
-import Algorithms.RecursiveDivision;
+import algorithms.Kruskal;
+import algorithms.RecursiveBacktracking;
+import algorithms.RecursiveDivision;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import java.util.List;

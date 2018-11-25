@@ -3,7 +3,7 @@ package sample;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
-import Algorithms.AStar;
+import algorithms.AStar;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
